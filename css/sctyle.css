@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: rgb(219, 123, 139);
+}
+.container {
+    margin-top: 100px;
+}
+
+.container h1{
+    font-family: 'Merriweather', serif;
+
+}
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    transition: 0.9s;
+}
+.yes {
+    width: 80px;
+    height: 44px;
+    background-color: green;
+    color: white;
+    left: 40%;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    color: black;
+}
+.no {
+
+    width: 80px;
+    height: 44px;
+    background-color: red;
+    color: white;
+    left: 55%;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    color: black;
+}
